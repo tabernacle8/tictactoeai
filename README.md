@@ -16,5 +16,5 @@ Thats really all there is. Its simple but effective allowing the bot to win agai
 
 You have my full permission to use this program and its code however you please. I however require that you distribute credit to me (Tabernacle8) if you use /modify/ distribute this program. 
 
-**PLEASE NOTE** This program is being submitted to College Board (which is not affiliated with me or this program) as my AP program submission requirement (which yes; took >8 hours). Therefore, since I, Tabernacle8 (Carter K.) created it, should not be considered plagerising this program. Yes, I am SPECIFICALLY putting this last line in to make sure College Board does not hunt me down for copyright because I put my code online. 
+**PLEASE NOTE:** This program is being submitted to College Board (which is not affiliated with me or this program) as my AP program submission requirement (which yes; took >8 hours). Therefore, since I, Tabernacle8 (Carter K.) created it, should not be considered plagerising this program. Yes, I am SPECIFICALLY putting this last line in to make sure College Board does not hunt me down for copyright because I put my code online. 
 
