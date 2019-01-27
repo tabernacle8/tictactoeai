@@ -229,48 +229,62 @@ def godefence(s1,s2,s3,s4,s5,s6,s7,s8,s9,talk,botmode,s1occ,s2occ,s3occ,s4occ,s5
           return("s7")
         if(test==4):
           return("s9")
-      
+      #TODO not in corner
       if(s5=="O"):
+        done=0
         if(s1=="X" and s7=="X"):
           test2= random.randint(1,4)
+          done=1
         elif(s1=="X" and s3=="X"):
           test2 = random.randint(1,4)
+          done=1
         elif(s1=="X" and s9=="X"):
           test2 = random.randint(1,4)
+          done=1
         elif(s7=="X" and s3=="X"):
           test2= random.randint(1,4)
+          done=1
         elif(s7=="X" and s9=="X"):
           test2 = random.randint(1,4)
+          done=1
         elif(s7=="X" and s1=="X"):
           test2 = random.randint(1,4)
+          done=1
         elif(s3=="X" and s7=="X"):
           test2 = random.randint(1,4)
+          done=1
         elif(s3=="X" and s9=="X"):
           test2 = random.randint(1,4)
+          done=1
         elif(s3=="X" and s1=="X"):
           test2 = random.randint(1,4)
+          done=1
         elif(s9=="X" and s7=="X"):
           test2 = random.randint(1,4)
+          done=1
         elif(s9=="X" and s3=="X"):
           test2 = random.randint(1,4)
+          done=1
         elif(s9=="X" and s1=="X"):
           test2 = random.randint(1,4)
-        if(test2==1):
-          if(talk==1):
-            print("\n *You occupy two corners. The bot must pick a inside square to win...")
-          return("s4")
-        if(test2==2):
-          if(talk==1):
-            print("\n *You occupy two corners. The bot must pick a inside square to win...")
-          return("s8")
-        if(test2==3):
-          if(talk==1):
-            print("\n *You occupy two corners. The bot must pick a inside square to win...")
-          return("s6")
-        if(test2==4):
-          if(talk==1):
-            print("\n *You occupy two corners. The bot must pick a inside square to win...")
-          return("s2")
+          done=1
+        if(done==1):
+          if(test2==1):
+            if(talk==1):
+              print("\n *You occupy two corners. The bot must pick a inside square to win...")
+            return("s4")
+          if(test2==2):
+            if(talk==1):
+              print("\n *You occupy two corners. The bot must pick a inside square to win...")
+            return("s8")
+          if(test2==3):
+            if(talk==1):
+              print("\n *You occupy two corners. The bot must pick a inside square to win...")
+            return("s6")
+          if(test2==4):
+            if(talk==1):
+              print("\n *You occupy two corners. The bot must pick a inside square to win...")
+            return("s2")
       
       
       test = random.randint(1,9)
